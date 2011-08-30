@@ -55,7 +55,7 @@ void UserProfileWidget::paintEvent(QPaintEvent *event)
 
     /* Drawing text */
     p.setPen(Qt::white);
-    p.drawText(height()+5, 0, width()-(height()+30), height(), Qt::AlignCenter, "blecam");
+    p.drawText(height()+5, 0, width()-(height()+30), height(), Qt::AlignCenter, _user->username());
 
     /*Drawing disconnection icon */
     QIcon disconnectIcon;

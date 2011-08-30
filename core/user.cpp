@@ -5,7 +5,7 @@ namespace Core{
 
 User::User()
 {
-    setAvatar(QIcon("/Users/Blecam/Desktop/xcode.png"));
+    setAvatar(QIcon("/Users/Blecam/Downloads/user_icon.png"));
 }
 
 User::User(const User &user)

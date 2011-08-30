@@ -19,7 +19,7 @@ Controller::Controller(QObject *parent) :
 
     QObject::connect(_modulesWindow, SIGNAL(disconnectUser()), this, SLOT(disconnect()));
 
-    //addUser("pseudo", "mot de passe en clair", "emplacement de stockage");
+    addUser("username", "password", "/Users/Blecam/Desktop");
 }
 
 void Controller::disconnect()

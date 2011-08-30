@@ -3,3 +3,5 @@ Mooztik depends on Qxt and QxOrm which can be found here http://dev.libqxt.org/l
 Once you've installed QxOrm, open the Mooztik.pro file in the root folder  and change the location of your QxOrm.pri, and QxOrm include and depend paths. 
 
 Further more, please consider that the application is not ended, so you need to create your account throw the controller.cpp file by modifying line 22 with your owns informations.
+
+Note that User are not configurable actually, but they will in a short time.
